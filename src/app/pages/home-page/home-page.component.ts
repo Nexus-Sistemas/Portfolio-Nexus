@@ -12,6 +12,7 @@ import { TestimonialsSectionComponent } from "../../shared/components/homePage/t
 import { ContactSectionComponent } from "../../shared/components/homePage/contact-section/contact-section.component";
 import { SolutionsSectionComponent } from "../../shared/components/homePage/solutions-section/solutions-section.component";
 import { SocialLinksComponent } from "../../shared/components/homePage/social-links/social-links.component";
+import { Title } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-home-page',
@@ -21,5 +22,7 @@ import { SocialLinksComponent } from "../../shared/components/homePage/social-li
 })
 
 export class HomePageComponent {
-    
+    constructor(private titleService: Title) {
+        this.titleService.setTitle('Nexus Sistemas | Início');
+    }
 }
