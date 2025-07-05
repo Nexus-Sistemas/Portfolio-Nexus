@@ -1,0 +1,74 @@
+<header id="header" [ngClass]="{'header-hidden': isHeaderHidden}" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-effect">
+<nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <a [routerLink]="'/'" class="text-2xl font-bold brand-text text-glow">NEXUS</a>
+    
+    <div class="hidden md:flex items-center space-x-8">
+        @for (link of navLinks; track link.href) {
+            @if (!link.isButton) {
+                <a [routerLink]="link.href" class="hover:brand-text transition-colors duration-300">{{ link.label }}</a>
+            } @else {
+                <a [routerLink]="link.href" class="px-4 py-2 border border-[#64ffda] rounded-md text-[#64ffda] hover:bg-[#64ffda] hover:text-[#0a192f] transition-all duration-300">
+                    {{ link.label }}
+                </a>
+            }
+        }
+    </div>
+    
+    <button
+    id="mobile-menu-button"
+    (click)="toggleMobileMenu()"
+    [ngClass]="{'is-active': isMobileMenuOpen}"
+    class="md:hidden flex flex-col justify-around w-6 h-6 z-50"
+    >
+    <span class="hamburger-line hamburger-line-top block w-full h-0.5 bg-white rounded-full"></span>
+    <span class="hamburger-line hamburger-line-middle block w-full h-0.5 bg-white rounded-full"></span>
+    <span class="hamburger-line hamburger-line-bottom block w-full h-0.5 bg-white rounded-full"></span>
+</button>
+</nav>
+</header>
+
+<div
+id="mobile-menu"
+[ngClass]="{'is-open': isMobileMenuOpen}"
+class="fixed top-0 right-0 h-full w-3/4 max-w-sm bg-[#112240] shadow-xl transform transition-transform duration-300 ease-in-out z-40"
+>
+<nav class="flex flex-col items-center justify-center h-full box-border pt-20 pb-24">
+    <ol class="w-full text-center space-y-8">
+        @for (link of navLinks; track link.href; let i = $index) {
+            @if (!link.isButton) {
+                <li>
+                    <a
+                    [routerLink]="link.href"
+                    (click)="toggleMobileMenu()"
+                    [style.transition-delay]="(i * 50) + 150 + 'ms'"
+                    class="text-2xl text-slate-300 hover:brand-text"
+                    >
+                    <span class="brand-text text-lg mr-2">0{{ i + 1 }}.</span>{{ link.label }}
+                </a>
+            </li>
+        }
+    }
+</ol>
+<a
+href="#contato"
+(click)="toggleMobileMenu()"
+[style.transition-delay]="'350ms'"
+class="mt-12 px-8 py-3 border border-[#64ffda] rounded-md text-[#64ffda] text-lg hover:bg-[#64ffda] hover:text-[#0a192f] transition-all"
+>
+Agendar Consultoria
+</a>
+<div
+[style.transition-delay]="'400ms'"
+class="social-links absolute bottom-10 flex space-x-8"
+>
+@for (social of socialLinks; track social.href) {
+    <a [href]="social.href" target="_blank" rel="noopener noreferrer" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor">
+            <title>{{ social.title }}</title>
+            <path [attr.d]="social.svgPath"></path>
+        </svg>
+    </a>
+}
+</div>
+</nav>
+</div>

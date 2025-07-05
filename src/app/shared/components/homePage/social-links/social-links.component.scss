@@ -1,0 +1,22 @@
+.social-icon-path { /* Alterado para uma classe específica para o path dentro da caixa */
+    transition: fill 0.3s ease;
+    fill: #ccd6f6;
+}
+
+.social-box:hover .social-icon-path { /* Altera a cor do ícone ao passar o mouse na caixa */
+    fill: #64ffda;
+}
+
+/* Estilos para as novas caixas de redes sociais */
+.social-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(45, 212, 191, 0.2); /* Borda sutil */
+    transition: all 0.3s ease;
+}
+
+.social-box:hover {
+    box-shadow: 0 10px 40px rgba(45, 212, 191, 0.2); /* Sombra com cor da marca */
+}

@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+
+<main class="container mx-auto px-6 py-24 mt-16">
+    <section id="testimonials-hero" class="text-center pt-16 pb-12">
+        <p class="text-lg brand-text mb-4">O QUE DIZEM SOBRE MIM</p>
+        <h1 class="text-4xl md:text-6xl font-black text-slate-200 mb-4">A Voz dos Meus Clientes</h1>
+        <p class="max-w-3xl mx-auto text-lg text-slate-400">
+            A satisfação dos meus clientes é a minha maior motivação. Veja o que alguns deles têm a dizer sobre a parceria e os resultados alcançados.
+        </p>
+    </section>
+    
+    <section id="testimonials-list" class="py-16">
+        <h2 class="section-title text-3xl font-bold text-slate-200 mb-12 flex items-center">
+            <span class="brand-text mr-2">01.</span> Depoimentos
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div *ngFor="let testimonial of testimonials" class="glass-effect p-8 rounded-lg shadow-xl flex flex-col items-center text-center">
+                <img [src]="testimonial.avatar" [alt]="'Avatar de ' + testimonial.author" class="w-24 h-24 rounded-full mb-6 border-2 border-[#64ffda] object-cover">
+                <p class="text-lg italic text-slate-300 mb-4">"{{ testimonial.quote }}"</p>
+                <p class="font-bold text-slate-200">{{ testimonial.author }}</p>
+                <p class="text-sm text-slate-400">{{ testimonial.role }}<span *ngIf="testimonial.company">, {{ testimonial.company }}</span></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="py-24 text-center max-w-2xl mx-auto">
+        <h3 class="text-4xl font-black text-slate-200 mb-4">Pronto para o seu caso de sucesso?</h3>
+        <p class="text-slate-400 mb-8">
+            Se você gostou do que viu e está pronto para transformar sua ideia em realidade, entre em contato.
+        </p>
+        <a href="mailto:seuemail@exemplo.com" class="inline-block px-8 py-4 bg-transparent border border-[#64ffda] text-[#64ffda] font-bold rounded-md hover:bg-[#64ffda] hover:text-[#0a192f] transition-all">
+            Agendar Consultoria Gratuita
+        </a>
+    </section>
+</main>

@@ -1,0 +1,18 @@
+<section id="redes-sociais" class="py-24 text-center">
+    <h2 class="section-title text-3xl font-bold text-slate-200 mb-12 flex items-center justify-center">
+        <span class="brand-text mr-2">06.</span> Conecte-se com a Nexus Sistemas
+    </h2>
+    <p class="max-w-3xl mx-auto text-lg text-slate-400 mb-8">
+        Siga a Nexus Sistemas nas nossas plataformas sociais para ficar por dentro das últimas novidades, projetos e insights do mundo da tecnologia.
+    </p>
+    <div class="flex flex-wrap justify-center gap-8">
+        <a *ngFor="let link of socialLinks" [href]="link.url" target="_blank" rel="noopener noreferrer"
+        class="social-box glass-effect p-6 rounded-lg flex flex-col items-center justify-center w-36 h-36 md:w-48 md:h-48 transition-all duration-300 hover:scale-105 hover:border-[#64ffda]">
+        <svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" role="img" [attr.viewBox]="'0 0 24 24'" class="h-12 w-12 mb-2">
+            <title>{{ link.title }}</title>
+            <path [attr.d]="link.svgPath" class="social-icon-path" />
+        </svg>
+        <span class="text-lg font-semibold text-slate-200">{{ link.name }}</span>
+    </a>
+</div>
+</section>

@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+
+<main class="container mx-auto px-6 py-24 mt-16">
+    <section id="solucoes-hero" class="text-center pt-16 pb-12">
+        <p class="text-lg brand-text mb-4">MINHAS SOLUÇÕES</p>
+        <h1 class="text-4xl md:text-6xl font-black text-slate-200 mb-4">Transformando Ideias em Resultados Digitais</h1>
+        <p class="max-w-3xl mx-auto text-lg text-slate-400">
+            Explore as diversas formas como posso ajudar seu negócio a prosperar no ambiente digital, desde a criação de sites que convertem até sistemas que otimizam sua operação.
+        </p>
+    </section>
+    
+    <section id="solucoes-lista" class="py-16">
+        <h2 class="section-title text-3xl font-bold text-slate-200 mb-12 flex items-center">
+            <span class="brand-text mr-2">01.</span> Detalhes das Soluções
+        </h2>
+        
+        <div *ngFor="let solution of solutions" class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+            <div [ngClass]="{'order-2 md:order-1': !solution.reverseLayout, 'order-1 md:order-2': solution.reverseLayout}"
+            class="text-slate-400 space-y-4">
+            <h3 class="text-3xl font-bold text-slate-200 mb-4">{{ solution.title }}</h3>
+            <p>{{ solution.description }}</p>
+            <p>Cada projeto é construído com foco em:</p>
+            <ul class="list-disc list-inside space-y-2 pl-4">
+                <li *ngFor="let point of solution.points" [innerHTML]="point"></li>
+            </ul>
+            <p>Seja para apresentar sua empresa, lançar um produto ou capturar leads, sua página será uma máquina de resultados.</p>
+            <a [routerLink]="solution.callToActionLink"
+            class="inline-block mt-6 px-6 py-3 border border-[#64ffda] text-[#64ffda] font-bold rounded-md hover:bg-[#64ffda] hover:text-[#0a192f] transition-all">
+            {{ solution.callToAction }}
+        </a>
+    </div>
+    <div [ngClass]="{'order-1 md:order-2': !solution.reverseLayout, 'order-2 md:order-1': solution.reverseLayout}"
+    class="glass-effect p-4 rounded-lg shadow-xl">
+    <img [src]="solution.imageUrl" [alt]="solution.imageAlt" class="w-full h-auto rounded-md">
+</div>
+</div>
+</section>
+</main>
