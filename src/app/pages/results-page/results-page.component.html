@@ -12,48 +12,54 @@
     
     <!-- Container dos Projetos -->
     <div class="space-y-24 md:space-y-32 mb-24">
-        
-        <!-- Itera sobre a lista de projetos -->
-        <section *ngFor="let project of projects">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Galeria de Imagens do Projeto -->
-                <div class="project-swiper swiper-container overflow-hidden rounded-lg" [ngClass]="{'lg:order-2': project.reverseLayout}">
-                    <div class="swiper-wrapper">
-                        <div *ngFor="let image of project.images" class="swiper-slide">
-                            <img [src]="image" [alt]="project.title + ' - ' + image.split('?text=')[1]" class="w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                
-                <!-- Descrição do Projeto -->
-                <div [ngClass]="{'lg:order-1': project.reverseLayout}">
-                    <p class="brand-text font-semibold">{{ project.category }}</p>
-                    <h2 class="text-3xl font-bold text-slate-200 mt-1 mb-4">{{ project.title }}</h2>
-                    <div class="text-slate-400 space-y-4">
-                        <p><strong>O Desafio:</strong> {{ project.challenge }}</p>
-                        <p><strong>A Solução:</strong> {{ project.solution }}</p>
-                        <div>
-                            <h3 class="font-bold text-slate-300 mb-2">Principais Tecnologias:</h3>
-                            <div class="flex flex-wrap gap-2 text-sm">
-                                <span *ngFor="let tech of project.technologies" class="bg-slate-700 px-3 py-1 rounded-full">{{ tech }}</span>
+        <section *ngFor="let project of projects" class="py-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="lg:min-h-0" [ngClass]="{'lg:order-2': project.reverseLayout}">
+                    <div class="project-swiper swiper-container overflow-hidden rounded-lg w-full h-[350px] lg:h-full">
+                        <div class="swiper-wrapper">
+                            <div *ngFor="let image of project.images" class="swiper-slide bg-slate-800 !flex justify-center items-center">
+                                <img [src]="image" [alt]="project.title + ' - Imagem do Projeto'" class="w-full h-[100dvh] max-h-[70vh] object-cover object-top">
                             </div>
                         </div>
-                        <div class="glass-effect p-4 rounded-lg mt-4">
-                            <h3 class="font-bold text-slate-200">Resultados Alcançados:</h3>
-                            <ul class="list-disc list-inside text-slate-300 mt-2">
-                                <li *ngFor="let result of project.results" [innerHTML]="result"></li>
-                            </ul>
+                        <div class="swiper-button-next text-white"></div>
+                        <div class="swiper-button-prev text-white"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col" [ngClass]="{'lg:order-1': project.reverseLayout}">
+                    <div class="flex-grow">
+                        <p class="brand-text font-semibold">{{ project.category }}</p>
+                        <h2 class="text-3xl font-bold text-slate-200 mt-1 mb-4">{{ project.title }}</h2>
+                        <div class="text-slate-400 space-y-4">
+                            <p><strong>O Desafio:</strong> {{ project.challenge }}</p>
+                            <p><strong>A Solução:</strong> {{ project.solution }}</p>
+                            <div>
+                                <h3 class="font-bold text-slate-300 mb-2">Principais Tecnologias:</h3>
+                                <div class="flex flex-wrap gap-2 text-sm">
+                                    <span *ngFor="let tech of project.technologies" class="bg-slate-700 px-3 py-1 rounded-full">{{ tech }}</span>
+                                </div>
+                            </div>
+                            <div class="glass-effect p-4 rounded-lg mt-4">
+                                <h3 class="font-bold text-slate-200">Resultados Alcançados:</h3>
+                                <ul class="list-disc list-inside text-slate-300 mt-2">
+                                    <li *ngFor="let result of project.results" [innerHTML]="result"></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <a [routerLink]="'/projeto/' + project.siteLink" rel="noopener noreferrer" class="inline-block mt-6 px-8 py-3 bg-[#64ffda] text-[#0a192f] font-bold rounded-md hover:bg-opacity-80 transition-all">
-                        Visitar o Site
-                    </a>
+                    <div class="flex flex-wrap items-center gap-4 mt-6">
+                        <a *ngIf="project.siteLink" href="{{project.siteLink}}" target="_blank" rel="noopener noreferrer" class="inline-block px-8 py-3 bg-[#64ffda] text-[#0a192f] font-bold rounded-md hover:bg-opacity-80 transition-all">
+                            Visitar o Site
+                        </a>
+                        <a [routerLink]="'/projeto/' + project.id" rel="noopener noreferrer" class="inline-block px-8 py-3 border border-[#64ffda] text-[#64ffda] font-bold rounded-md hover:bg-[#64ffda] hover:text-[#0a192f] transition-all">
+                            Mais detalhes
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
+        
         
     </div>
     

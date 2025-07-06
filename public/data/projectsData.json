@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "category": "Landing Page de Divulgação",
+        "title": "PetShop PetCare: Bem-estar e Cuidado para o seu Pet!",
+        "challenge": "Um petshop com foco no bem-estar animal precisava estabelecer uma presença digital sólida para apresentar seus serviços, construir autoridade e otimizar o contato com os clientes. O objetivo era criar uma primeira impressão marcante e informativa, sem a complexidade de sistemas de e-commerce ou agendamento direto.",
+        "solution": "Desenvolvi uma landing page moderna e responsiva utilizando Angular, focado em performance e otimização para motores de busca (SEO). A estilização foi feita com Tailwind CSS, permitindo um design flexível e rápido. A página destaca os principais serviços, o diferencial da marca e inclui chamadas para ação claras (CTAs) para contato via WhatsApp ou telefone, garantindo uma experiência agradável em qualquer dispositivo.",
+        "technologies": ["Angular", "TypeScript", "Tailwind CSS", "Vercel"],
+        "results": [
+            "**Otimização para SEO com resultados de alta performance no Google PageSpeed Insights**, garantindo visibilidade e um excelente ponto de partida para aquisição de tráfego orgânico.",
+            "**Carregamento da página otimizado para velocidade**, proporcionando uma experiência de usuário fluida e retendo potenciais clientes.",
+            "**Design responsivo e adaptável**, assegurando que a página se adapte perfeitamente a qualquer dispositivo (desktop, tablet, mobile), ampliando o alcance do público.",
+            "**Aumento potencial na captação de leads/contatos**, facilitado por CTAs estratégicas (WhatsApp, Telefone) projetadas para maximizar a interação do usuário."
+        ],
+        "siteLink": "https://raphaelmun1z.github.io/Angular_PetCare/inicio",
+        "images": [
+            "PetshopModel/Home_fullpage.png",
+            "PetshopModel/Servicos_fullpage.png",
+            "PetshopModel/Diferenciais_fullpage.png",
+            "PetshopModel/Galeria_fullpage.png"
+        ],
+        "reverseLayout": false,
+        "caseStudy": {
+            "category": "Landing Page de Divulgação",
+            "title": "Estudo de Caso: PetShop PetCare",
+            "heroDescription": "Como uma landing page otimizada para SEO e performance aumentou a visibilidade e a captação de clientes para um petshop local.",
+            "heroBackgroundImageUrl": "PetshopModel/Home_fullpage.png",
+            "overview": "O PetShop PetCare enfrentava o desafio de se destacar no mercado digital sem uma presença online profissional. A solução foi desenvolver uma landing page focada em conversão, apresentando os serviços de forma clara e facilitando o contato direto, resultando em um canal de aquisição de clientes eficiente e de baixo custo.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "PetshopModel/Servicos_fullpage.png",
+            "mainImageAlt": "Página principal do site PetCare",
+            "challenge": "O principal desafio era criar uma vitrine digital atraente que transmitisse confiança e profissionalismo, convertendo visitantes em clientes sem a necessidade de um sistema de e-commerce complexo. A performance e a encontrabilidade no Google eram cruciais.",
+            "parallaxImageUrl": "PetshopModel/Diferenciais_fullpage.png",
+            "parallaxImageAlt": "Imagem Parallax do site PetCare",
+            "approach": [
+                { "icon": "🔍", "title": "Diagnóstico e Estratégia", "description": "Análise do público-alvo e definição da jornada do usuário para garantir que as informações mais importantes estivessem acessíveis." },
+                { "icon": "🎨", "title": "Design e Desenvolvimento", "description": "Criação de um layout limpo e moderno com Angular e Tailwind CSS, focado na experiência mobile-first." },
+                { "icon": "🚀", "title": "Otimização e Lançamento", "description": "Implementação de técnicas avançadas de SEO e otimização de imagens para garantir carregamento rápido e alta pontuação nos motores de busca." }
+            ],
+            "galleryImages": [
+                { "src": "PetshopModel/Home_fullpage.png", "alt": "Visão geral da página inicial" },
+                { "src": "PetshopModel/Servicos_fullpage.png", "alt": "Seção de serviços detalhados" },
+                { "src": "PetshopModel/Galeria_fullpage.png", "alt": "Galeria de fotos do petshop" }
+            ],
+            "technologiesIntro": "A escolha tecnológica foi fundamental para atingir os objetivos de performance, manutenibilidade e uma excelente experiência para o usuário final.",
+            "technologies": [
+                { "icon": "🅰️", "title": "Angular", "description": "Para uma aplicação web robusta, performática e de fácil manutenção." },
+                { "icon": "💨", "title": "Tailwind CSS", "description": "Para prototipagem e estilização rápida, criando um design responsivo e customizado." },
+                { "icon": "📜", "title": "TypeScript", "description": "Para um código mais seguro, legível e escalável." },
+                { "icon": "☁️", "title": "GitHub Pages", "description": "Para uma hospedagem global, rápida, segura e com integração contínua." }
+            ],
+            "testimonial": {
+                "quote": "O site transforma a presença online.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, PetShop PetCare"
+            },
+            "nextProject": {
+                "title": "Plataforma de Cursos Online",
+                "link": "0",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    }
+]
