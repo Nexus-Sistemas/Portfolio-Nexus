@@ -9,7 +9,7 @@
                 @if (!link.isButton) {
                     <a [routerLink]="link.href" class="hover:brand-text transition-colors duration-300">{{ link.label }}</a>
                 } @else {
-                    <a [routerLink]="link.href" class="px-4 py-2 border border-[#64ffda] rounded-md text-[#64ffda] hover:bg-[#64ffda] hover:text-[#0a192f] transition-all duration-300">
+                    <a href="{{link.href}}" class="px-4 py-2 border border-[#64ffda] rounded-md text-[#64ffda] hover:bg-[#64ffda] hover:text-[#0a192f] transition-all duration-300">
                         {{ link.label }}
                     </a>
                 }

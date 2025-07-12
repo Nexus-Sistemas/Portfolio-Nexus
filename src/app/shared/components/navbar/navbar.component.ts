@@ -29,7 +29,7 @@ export class NavbarComponent {
         { href: '/solucoes', label: 'Soluções' },
         { href: '/projetos', label: 'Projetos' },
         { href: '/depoimentos', label: 'Depoimentos' },
-        { href: '/contato', label: 'Contato', isButton: true }
+        { href: 'https://nexus-sistemas.github.io/Nexus-Links/', label: 'Contato', isButton: true }
     ];
     
     public socialLinks = [
