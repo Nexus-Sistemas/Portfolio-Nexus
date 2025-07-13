@@ -5,7 +5,7 @@
         "title": "PetShop PetCare: Bem-estar e Cuidado para o seu Pet!",
         "challenge": "Um petshop com foco no bem-estar animal precisava estabelecer uma presença digital sólida para apresentar seus serviços, construir autoridade e otimizar o contato com os clientes. O objetivo era criar uma primeira impressão marcante e informativa, sem a complexidade de sistemas de e-commerce ou agendamento direto.",
         "solution": "Desenvolvi uma landing page moderna e responsiva utilizando Angular, focado em performance e otimização para motores de busca (SEO). A estilização foi feita com Tailwind CSS, permitindo um design flexível e rápido. A página destaca os principais serviços, o diferencial da marca e inclui chamadas para ação claras (CTAs) para contato via WhatsApp ou telefone, garantindo uma experiência agradável em qualquer dispositivo.",
-        "technologies": ["Angular", "TypeScript", "Tailwind CSS", "Vercel"],
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
         "results": [
             "**Otimização para SEO com resultados de alta performance no Google PageSpeed Insights**, garantindo visibilidade e um excelente ponto de partida para aquisição de tráfego orgânico.",
             "**Carregamento da página otimizado para velocidade**, proporcionando uma experiência de usuário fluida e retendo potenciais clientes.",
@@ -60,6 +60,426 @@
             "nextProject": {
                 "title": "Plataforma de Cursos Online",
                 "link": "0",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "2",
+        "category": "Presença Digital para Negócios Locais",
+        "title": "Açaiteria Sabor Tropical: Conectando a Marca aos Clientes Digitais",
+        "challenge": "Muitos negócios locais, apesar de oferecerem produtos de alta qualidade, enfrentam dificuldades para estabelecer uma presença online profissional. O desafio era desenvolver um canal digital para a Sabor Tropical que fosse convidativo, de fácil navegação e que convertesse visitantes em clientes.",
+        "solution": "Desenvolvi um site institucional com um design moderno e profissional, totalmente compatível com dispositivos móveis. A página atua como uma vitrine digital estratégica, apresentando os principais produtos, fortalecendo a imagem da marca e direcionando o usuário para as ações mais importantes: o contato e o pedido.",
+        "technologies": ["Design Moderno e Adaptável", "Alta Performance de Carregamento", "Publicação Online Segura"],
+        "results": [
+            "**Estabelecimento de uma vitrine online profissional**, que transmite confiança e a qualidade da marca, operando 24 horas por dia.",
+            "**Maior alcance de clientes que utilizam dispositivos móveis**, um público essencial para negócios locais na atualidade.",
+            "**Apresentação otimizada dos produtos**, com imagens de alta qualidade e descrições que despertam o interesse do consumidor.",
+            "**Otimização do canal de contato**, com botões de acesso direto ao WhatsApp para aumentar a taxa de conversão de visitantes em vendas."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-Acaiteria/",
+        "images": [
+            "AcaiteriaModel/home_fullpage.png"
+        ],
+        "reverseLayout": true,
+        "caseStudy": {
+            "category": "Presença Digital para Negócios Locais",
+            "title": "Estudo de Caso: Como a Sabor Tropical Aumentou seu Alcance com um Site Profissional",
+            "heroDescription": "Análise de como um site bem estruturado pode fortalecer a presença de marca de um negócio e otimizar a aquisição de clientes.",
+            "heroBackgroundImageUrl": "AcaiteriaModel/home_fullpage.png",
+            "overview": "A Açaiteria Sabor Tropical possuía um produto de excelência, mas sua presença digital não comunicava esse valor. A solução foi desenvolver um site que aliasse uma estética profissional com alta performance e usabilidade, convertendo o dispositivo móvel de cada cliente em um prático cardápio digital.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "AcaiteriaModel/home_fullpage.png",
+            "mainImageAlt": "Página principal do site da Açaiteria Sabor Tropical",
+            "challenge": "O principal desafio para negócios locais é criar uma experiência online à altura da qualidade do produto oferecido. Era preciso garantir que o cliente encontrasse as informações desejadas de forma rápida e que o processo de contato para pedido fosse simples e eficiente.",
+            "parallaxImageUrl": "AcaiteriaModel/home_fullpage.png",
+            "parallaxImageAlt": "Imagem Parallax de um açaí delicioso",
+            "approach": [
+                { "icon": "🎯", "title": "Análise de Negócio", "description": "O primeiro passo foi realizar uma análise aprofundada da marca Sabor Tropical para compreender seus produtos, público-alvo e objetivos comerciais." },
+                { "icon": "🎨", "title": "Desenvolvimento da Identidade Visual", "description": "Com base na análise, desenvolvemos um design para o site que estivesse alinhado à identidade da marca, com foco em fotografia profissional e textos persuasivos." },
+                { "icon": "🚀", "title": "Implementação e Otimização", "description": "Lançamos o site assegurando sua alta performance, segurança e uma experiência de usuário intuitiva e eficaz em todas as plataformas." }
+            ],
+            "galleryImages": [
+                { "src": "AcaiteriaModel/home_fullpage.png", "alt": "Visão geral da página inicial da açaiteria" }
+            ],
+            "technologiesIntro": "Para a construção do projeto, focamos em três pilares tecnológicos essenciais para o sucesso de um negócio online:",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "O site transforma a presença online.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, Açaiteria Sabor Tropical"
+            },
+            "nextProject": {
+                "title": "Sistema de Gestão de Pedidos",
+                "link": "3",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "3",
+        "category": "Presença Digital para Saúde",
+        "title": "Clínica Veterinária: Cuidado e Confiança Digital",
+        "challenge": "Uma clínica veterinária de excelência precisava transmitir seu profissionalismo e cuidado no ambiente digital. O desafio era criar um site que não apenas informasse, mas que também acolhesse e passasse segurança aos tutores de pets, facilitando o acesso a informações cruciais sem a necessidade de um sistema de agendamento online.",
+        "solution": "Desenvolvi um site institucional com design limpo, profissional e responsivo, utilizando as melhores técnicas para uma experiência de usuário fluida e de alta performance. A estilização com Tailwind CSS garantiu uma identidade visual única e adaptável. A arquitetura do site foi pensada para destacar os serviços, apresentar a equipe médica e oferecer canais de contato direto e rápido, como telefone e WhatsApp, para emergências e dúvidas.",
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
+        "results": [
+            "**Fortalecimento da imagem de marca**, transmitindo profissionalismo, higiene e confiança através de um design clean e organizado.",
+            "**Otimização da comunicação**, centralizando informações importantes como horários, especialidades e contatos de emergência.",
+            "**Melhora na experiência do usuário**, com um site de carregamento rápido e navegação intuitiva, crucial para momentos de urgência.",
+            "**Base sólida para SEO Local**, posicionando a clínica para ser encontrada por clientes em buscas geográficas."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-ClinicaVeterinaria/",
+        "images": [
+            "VeterinariaModel/Home_fullpage.png"
+        ],
+        "reverseLayout": false,
+        "caseStudy": {
+            "category": "Presença Digital para Saúde",
+            "title": "Estudo de Caso: Clínica Veterinária",
+            "heroDescription": "Como um site institucional com foco em UX e performance pode solidificar a confiança e otimizar a comunicação de uma clínica veterinária.",
+            "heroBackgroundImageUrl": "VeterinariaModel/Home_fullpage.png",
+            "overview": "A Clínica, apesar de sua reputação offline, carecia de uma presença digital que refletisse seu alto padrão de cuidado. A solução foi criar um portal informativo que aliasse um design tranquilizador com acesso rápido à informação, servindo como um pilar de confiança para os tutores de pets.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "VeterinariaModel/Home_fullpage.png",
+            "mainImageAlt": "Página da Clínica",
+            "challenge": "O desafio era projetar uma experiência digital que fosse informativa e calmante. Era essencial que os usuários encontrassem rapidamente o que precisavam (contato, serviços, localização) e que o design transmitisse a seriedade e o carinho da clínica.",
+            "parallaxImageUrl": "VeterinariaModel/Home_fullpage.png",
+            "parallaxImageAlt": "Imagem da clínica",
+            "approach": [
+                { "icon": "❤️", "title": "Estratégia e Empatia", "description": "Mapeamento da jornada do tutor, identificando suas principais dores e necessidades informacionais para estruturar o conteúdo do site de forma lógica e empática." },
+                { "icon": "🎨", "title": "Design e Desenvolvimento", "description": "Criação de uma identidade visual limpa e profissional com Angular e Tailwind CSS, focada na legibilidade e na experiência mobile-first." },
+                { "icon": "🚀", "title": "Otimização e Lançamento", "description": "Implementação de SEO on-page e otimização de ativos para garantir performance máxima e uma base sólida para ranqueamento local." }
+            ],
+            "galleryImages": [
+                { "src": "VeterinariaModel/Home_fullpage.png", "alt": "Visão geral da página inicial" }
+            ],
+            "technologiesIntro": "A escolha tecnológica foi crucial para garantir segurança, performance e uma experiência de usuário impecável.",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "Um design que inspira confiança e cuidado.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, Clínica Veterinária"
+            },
+            "nextProject": {
+                "title": "Loja de Eletrônicos TechConnect",
+                "link": "4",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "category": "Catálogo Digital para Varejo",
+        "title": "TechConnect: Vitrine Digital para Loja de Eletrônicos",
+        "challenge": "Uma loja de eletrônicos precisava de uma vitrine digital que refletisse a modernidade de seus produtos. O objetivo era criar um catálogo online sofisticado para apresentar o portfólio, destacar promoções e fortalecer a marca, sem a complexidade de um e-commerce transacional.",
+        "solution": "Desenvolvi um site estático de alta performance, atuando como um catálogo digital interativo. Construído com React e estilizado com Styled-Components para um design modular e dinâmico, o site permite a fácil visualização de categorias e produtos, com foco em imagens de alta qualidade e descrições técnicas claras. A navegação intuitiva guia o usuário a entrar em contato para finalizar a compra.",
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
+        "results": [
+            "**Apresentação profissional do portfólio de produtos**, elevando a percepção de valor da marca.",
+            "**Experiência de usuário superior à de catálogos em PDF**, com interatividade e navegação fluida.",
+            "**Design totalmente responsivo**, garantindo uma visualização perfeita em desktops, tablets e smartphones.",
+            "**Facilidade de atualização**, permitindo que novos produtos sejam adicionados de forma rápida e eficiente."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-LojaEletronicos/",
+        "images": [
+            "EletronicosModel/Home_fullpage.png"
+        ],
+        "reverseLayout": true,
+        "caseStudy": {
+            "category": "Catálogo Digital para Varejo",
+            "title": "Estudo de Caso: TechConnect Eletrônicos",
+            "heroDescription": "Como um catálogo digital interativo pode modernizar a apresentação de produtos e fortalecer a marca de uma loja de eletrônicos.",
+            "heroBackgroundImageUrl": "EletronicosModel/Home_fullpage.png",
+            "overview": "A TechConnect enfrentava o desafio de apresentar seu vasto e moderno catálogo de produtos de uma forma que fosse igualmente moderna. A solução foi um site estático agindo como uma vitrine premium, focando na experiência visual e na clareza da informação para atrair e informar clientes.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "EletronicosModel/Home_fullpage.png",
+            "mainImageAlt": "Página de produtos da TechConnect",
+            "challenge": "O desafio era criar uma experiência digital que fosse tão sofisticada quanto os produtos vendidos. Era preciso evitar a aparência de um e-commerce genérico, focando em um design editorial e na qualidade da apresentação para se diferenciar no mercado.",
+            "parallaxImageUrl": "EletronicosModel/Home_fullpage.png",
+            "parallaxImageAlt": "Detalhe de um produto em parallax",
+            "approach": [
+                { "icon": "💡", "title": "Estratégia de Conteúdo", "description": "Definição de uma arquitetura de informação que prioriza a descoberta visual de produtos, com categorias claras e uma busca intuitiva." },
+                { "icon": "🎨", "title": "Design de Interface (UI)", "description": "Criação de um layout minimalista e moderno com React e Styled-Components, onde as imagens e os produtos são os verdadeiros protagonistas." },
+                { "icon": "🚀", "title": "Otimização de Performance", "description": "Compressão de imagens e uso de técnicas de lazy loading para garantir um carregamento quase instantâneo, mesmo com um catálogo visualmente rico." }
+            ],
+            "galleryImages": [
+                { "src": "EletronicosModel/Home_fullpage.png", "alt": "Visão geral da página inicial" }
+            ],
+            "technologiesIntro": "A stack tecnológica foi selecionada para oferecer flexibilidade, performance e uma experiência de desenvolvimento moderna.",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "Um design que reflete a inovação dos produtos.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, TechConnect"
+            },
+            "nextProject": {
+                "title": "Loja de Roupa EstiloPopular",
+                "link": "5",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "5",
+        "category": "Lookbook Digital para Moda",
+        "title": "EstiloPopular: A Experiência de um Lookbook Digital",
+        "challenge": "Uma marca de moda urbana precisava de uma presença online que fosse além de um simples catálogo, criando uma experiência imersiva que contasse a história de cada coleção. O objetivo era desenvolver um lookbook digital que fosse visualmente impactante e refletisse a identidade da marca.",
+        "solution": "Desenvolvi um site estático com foco em narrativa visual, utilizando HTML5, CSS3 (com Grid/Flexbox) e JavaScript puro para total controle sobre as animações e transições. O design é minimalista e editorial, com foco em fotografia de alta resolução e tipografia marcante. A experiência é otimizada para ser um deleite visual, incentivando a descoberta e o compartilhamento.",
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
+        "results": [
+            "**Criação de uma forte identidade de marca** através de uma experiência digital única e memorável.",
+            "**Apresentação de coleções de forma artística e editorial**, diferenciando a marca de concorrentes.",
+            "**Performance de animação fluida**, graças ao uso de bibliotecas otimizadas como GSAP.",
+            "**Totalmente responsivo**, proporcionando uma experiência de lookbook impecável em qualquer tela."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-LojaRoupa/",
+        "images": [
+            "RoupaModel/Home_fullpage.png"
+        ],
+        "reverseLayout": false,
+        "caseStudy": {
+            "category": "Lookbook Digital para Moda",
+            "title": "Estudo de Caso: EstiloPopular",
+            "heroDescription": "Como um lookbook digital com foco em design e animação pode criar uma experiência de marca imersiva para o setor de moda.",
+            "heroBackgroundImageUrl": "RoupaModel/Home_fullpage.png",
+            "overview": "Para a EstiloPopular, um e-commerce padrão não era suficiente. A marca precisava de uma plataforma que comunicasse seu lifestyle. A solução foi um lookbook digital que funciona como uma revista interativa, onde cada scroll conta uma parte da história da coleção, engajando o cliente em um nível emocional.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "RoupaModel/Home_fullpage.png",
+            "mainImageAlt": "Página da coleção da EstiloPopular",
+            "challenge": "O desafio era técnico e criativo: como construir uma experiência rica em animações e imagens de alta qualidade sem comprometer a performance de carregamento e a fluidez da navegação, especialmente em dispositivos móveis.",
+            "parallaxImageUrl": "RoupaModel/Home_fullpage.png",
+            "parallaxImageAlt": "Detalhe de um look em parallax",
+            "approach": [
+                { "icon": "📸", "title": "Direção de Arte Digital", "description": "Planejamento da narrativa visual e da sequência de interações para criar uma jornada coesa e impactante para o usuário." },
+                { "icon": "🎨", "title": "Design e Microinterações", "description": "Desenvolvimento de um layout editorial com HTML/CSS e implementação de microinterações e transições suaves com JavaScript e GSAP." },
+                { "icon": "🚀", "title": "Otimização Extrema", "description": "Otimização de todas as imagens e scripts, e uso de técnicas de carregamento assíncrono para garantir uma experiência premium." }
+            ],
+            "galleryImages": [
+                { "src": "RoupaModel/Home_fullpage.png", "alt": "Visão geral da página inicial" }
+            ],
+            "technologiesIntro": "A stack foi escolhida para oferecer controle criativo total e máxima performance.",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "Onde design e moda se tornam uma única experiência.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, EstiloPopular"
+            },
+            "nextProject": {
+                "title": "Escola de Idiomas Fluentia",
+                "link": "6",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "6",
+        "category": "Plataforma Educacional",
+        "title": "Fluentia: Apresentação para Escola de Idiomas",
+        "challenge": "Uma escola de idiomas inovadora precisava de um site que refletisse sua metodologia moderna e que organizasse de forma clara sua vasta gama de cursos e níveis. O objetivo era criar um portal informativo que servisse como principal ferramenta de atração e informação para novos alunos.",
+        "solution": "Desenvolvi um site institucional ideal para criar uma experiência de usuário interativa e organizada. A estrutura do site foi planejada com uma arquitetura de informação clara, permitindo que os visitantes encontrem facilmente informações sobre cursos, metodologias e preços. O design é limpo, acadêmico e confiável, transmitindo a seriedade da instituição.",
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
+        "results": [
+            "**Apresentação clara e organizada dos cursos**, facilitando a decisão do potencial aluno.",
+            "**Fortalecimento da credibilidade da escola** através de um design profissional e conteúdo bem estruturado.",
+            "**Experiência de usuário engajadora**, com componentes interativos que explicam a metodologia de ensino.",
+            "**Plataforma otimizada para conversão**, com CTAs claros para inscrição e contato."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-EscolaIdiomas/",
+        "images": [
+            "IdiomasModel/Home_fullpage.png"
+        ],
+        "reverseLayout": true,
+        "caseStudy": {
+            "category": "Plataforma Educacional",
+            "title": "Estudo de Caso: Fluentia Idiomas",
+            "heroDescription": "Como um site bem estruturado pode simplificar a apresentação de cursos e aumentar a captação de alunos para uma escola de idiomas.",
+            "heroBackgroundImageUrl": "IdiomasModel/Home_fullpage.png",
+            "overview": "A Fluentia oferecia ótimos cursos, mas sua presença digital era confusa. A solução foi um site focado na jornada do aluno, desde a descoberta do curso ideal até o entendimento da metodologia, culminando em um processo de contato simplificado. O site se tornou o principal vendedor da escola.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "IdiomasModel/Home_fullpage.png",
+            "mainImageAlt": "Página de cursos da Fluentia",
+            "challenge": "O maior desafio era organizar uma grande quantidade de informações (idiomas, níveis, horários, preços) de uma forma que não sobrecarregasse o usuário. A interface precisava ser intuitiva para guiar diferentes perfis de alunos ao longo do funil de decisão.",
+            "parallaxImageUrl": "IdiomasModel/Home_fullpage.png",
+            "parallaxImageAlt": "Detalhe da metodologia de ensino",
+            "approach": [
+                { "icon": "🗺️", "title": "Arquitetura da Informação", "description": "Mapeamento completo de todos os cursos e criação de uma hierarquia lógica para facilitar a navegação e a descoberta." },
+                { "icon": "🎨", "title": "Design com Vue.js e Vuetify", "description": "Desenvolvimento de uma interface reativa com componentes do Material Design, garantindo consistência visual e usabilidade." },
+                { "icon": "🚀", "title": "Otimização de Conteúdo", "description": "Criação de textos e elementos visuais persuasivos, com foco em SEO para termos educacionais, para atrair tráfego qualificado." }
+            ],
+            "galleryImages": [
+                { "src": "IdiomasModel/Home_fullpage.png", "alt": "Visão geral da página inicial" }
+            ],
+            "technologiesIntro": "A stack foi escolhida para combinar desenvolvimento rápido com uma experiência de usuário rica e interativa.",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "Clareza e profissionalismo que convertem visitantes em alunos.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, Fluentia"
+            },
+            "nextProject": {
+                "title": "Portfólio Profissional de Designer",
+                "link": "7",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "7",
+        "category": "Marca Pessoal e Portfólio",
+        "title": "Portfólio Profissional: A Vitrine de um Desenvolvedor",
+        "challenge": "Um desenvolvedor de software precisava de uma plataforma para centralizar seus projetos, artigos e biografia, que fosse além do padrão oferecido por redes como o LinkedIn. O objetivo era criar uma marca pessoal forte e um portfólio que demonstrasse não apenas suas habilidades técnicas, mas também sua personalidade e visão.",
+        "solution": "Desenvolvi um portfólio digital customizado para performance otimizada. A estilização com Tailwind CSS permitiu criar um design minimalista e único. O site foi estruturado para contar uma história, guiando o visitante através da jornada profissional, projetos de destaque e formas de contato, funcionando como um hub central para sua presença online.",
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
+        "results": [
+            "**Criação de uma marca pessoal forte e diferenciada**, com total controle sobre a narrativa.",
+            "**Performance excepcional de carregamento**, graças à renderização estática do Next.js.",
+            "**Excelente ranqueamento em motores de busca (SEO)**, aumentando a visibilidade profissional.",
+            "**Centralização de todos os links e projetos**, funcionando como um cartão de visitas digital definitivo."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-PortfolioProfissional/",
+        "images": [
+            "PortfolioModel/Home_fullpage.png"
+        ],
+        "reverseLayout": false,
+        "caseStudy": {
+            "category": "Marca Pessoal e Portfólio",
+            "title": "Estudo de Caso: Portfólio de Desenvolvedor",
+            "heroDescription": "Como um site de portfólio construído com Next.js pode maximizar a performance, o SEO e o impacto de uma marca pessoal.",
+            "heroBackgroundImageUrl": "PortfolioModel/Home_fullpage.png",
+            "overview": "Em um mercado competitivo, um perfil de LinkedIn não é mais suficiente. A solução foi criar um portfólio que é, em si, um projeto de destaque. Utilizando as melhores práticas de desenvolvimento web, o site não apenas mostra os trabalhos, mas demonstra a qualidade do trabalho do próprio desenvolvedor.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "PortfolioModel/Home_fullpage.png",
+            "mainImageAlt": "Página de projetos do portfólio",
+            "challenge": "O desafio era construir um site que fosse extremamente rápido, perfeitamente otimizado para SEO e que tivesse um design memorável, sem parecer um template genérico. Cada elemento deveria refletir a atenção aos detalhes e a qualidade técnica do profissional.",
+            "parallaxImageUrl": "PortfolioModel/Home_fullpage.png",
+            "parallaxImageAlt": "Seção 'Sobre mim' em parallax",
+            "approach": [
+                { "icon": "👤", "title": "Estratégia de Marca Pessoal", "description": "Definição da mensagem central e da narrativa a ser contada, estruturando o conteúdo para destacar os pontos fortes e a experiência." },
+                { "icon": "🎨", "title": "Design e Desenvolvimento com Next.js", "description": "Criação de um design minimalista e focado no conteúdo, implementado com Next.js e Tailwind CSS para máxima performance e flexibilidade." },
+                { "icon": "🚀", "title": "Otimização para Motores de Busca", "description": "Aplicação de todas as técnicas de SEO (meta tags, dados estruturados, sitemap) para garantir que o portfólio seja facilmente encontrado." }
+            ],
+            "galleryImages": [
+                { "src": "PortfolioModel/Home_fullpage.png", "alt": "Visão geral da página inicial" }
+            ],
+            "technologiesIntro": "A stack foi escolhida para atingir o ápice da performance e das boas práticas de desenvolvimento web.",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "O portfólio que é, em si, o primeiro grande projeto.",
+                "author": "Nexus",
+                "role": "Desenvolvedor"
+            },
+            "nextProject": {
+                "title": "Landing Page para SaaS",
+                "link": "8",
+                "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
+            }
+        }
+    },
+    {
+        "id": "8",
+        "category": "Marketing para Produto Digital",
+        "title": "Innovate SaaS: Landing Page de Conversão",
+        "challenge": "Uma startup de SaaS (Software as a Service) precisava de uma landing page que explicasse de forma clara e concisa o valor de seu produto complexo. O objetivo era educar o mercado, gerar confiança e converter visitantes em leads qualificados (pedidos de demo ou trial).",
+        "solution": "Desenvolvi uma landing page de alta conversão, focada em contar uma história e apresentar os benefícios do produto. Utilizando Gatsby, um gerador de site estático para React, garanti uma performance de carregamento imbatível. O design é limpo, focado em dados e depoimentos, com CTAs estratégicos posicionados ao longo da página para maximizar a geração de leads.",
+        "technologies": ["HTML", "Tailwind CSS", "GitHub"],
+        "results": [
+            "**Comunicação clara da proposta de valor**, traduzindo features técnicas em benefícios para o cliente.",
+            "**Aumento da credibilidade e prova social** através de seções de depoimentos e estudos de caso.",
+            "**Velocidade de carregamento extrema**, essencial para reter a atenção de usuários e para o SEO.",
+            "**Estrutura otimizada para conversão**, guiando o usuário de forma natural até a ação desejada."
+        ],
+        "siteLink": "https://nexus-sistemas.github.io/Projeto-Saas/",
+        "images": [
+            "SaaSModel/Home_fullpage.png"
+        ],
+        "reverseLayout": true,
+        "caseStudy": {
+            "category": "Marketing para Produto Digital",
+            "title": "Estudo de Caso: Innovate SaaS",
+            "heroDescription": "Como uma landing page estática e ultra-rápida construída com Gatsby pode ser a principal ferramenta de marketing para um produto SaaS.",
+            "heroBackgroundImageUrl": "SaaSModel/Home_fullpage.png",
+            "overview": "A Innovate SaaS tinha um produto incrível, mas seu site não comunicava isso. A solução foi uma landing page única, que funciona como um funil de vendas automatizado, educando o visitante sobre o problema, apresentando a solução e convidando-o para uma conversa, tudo isso com performance de nível mundial.",
+            "metrics": [
+                { "value": "+94", "label": "Pontos no PageSpeed" },
+                { "value": "+81", "label": "Pontos em Otimização para Mecanismos de Busca" }
+            ],
+            "mainImageUrl": "SaaSModel/Home_fullpage.png",
+            "mainImageAlt": "Página de funcionalidades do SaaS",
+            "challenge": "O desafio era destilar um produto de software complexo em uma mensagem simples e poderosa. A página precisava ser persuasiva, visualmente atraente e tecnicamente perfeita para transmitir a competência da startup.",
+            "parallaxImageUrl": "SaaSModel/Home_fullpage.png",
+            "parallaxImageAlt": "Seção de preços em parallax",
+            "approach": [
+                { "icon": "📈", "title": "Estratégia de Conversão", "description": "Definição da jornada do cliente na página, com uma narrativa que aborda a dor, apresenta a solução e prova o valor do produto." },
+                { "icon": "🎨", "title": "Design e Desenvolvimento com Gatsby", "description": "Criação de uma interface limpa e orientada a dados, utilizando o ecossistema do Gatsby para otimizar imagens e performance." },
+                { "icon": "🚀", "title": "Otimização de Conteúdo para Leads", "description": "Elaboração de textos (copywriting) e CTAs focados em convencer o visitante a dar o próximo passo no funil de vendas." }
+            ],
+            "galleryImages": [
+                { "src": "SaaSModel/Home_fullpage.png", "alt": "Visão geral da página inicial" }
+            ],
+            "technologiesIntro": "A stack foi escolhida para entregar a melhor performance possível e uma experiência de desenvolvimento moderna.",
+            "technologies": [
+                { "icon": "뼈", "title": "Estrutura Sólida e Otimizada", "description": "Construímos o site sobre uma base robusta e bem organizada, projetada para ser facilmente encontrada por mecanismos de busca como o Google." },
+                { "icon": "🎨", "title": "Design Exclusivo e Flexível", "description": "Desenvolvemos uma identidade visual única para a marca, com uma arquitetura flexível que permite futuras expansões e atualizações." },
+                { "icon": "🚀", "title": "Performance e Disponibilidade", "description": "Utilizamos uma abordagem que garante o carregamento instantâneo da página e sua disponibilidade contínua para todos os clientes." },
+                { "icon": "🔧", "title": "Facilidade de Manutenção", "description": "O site é construído de forma modular e organizada, o que torna futuras atualizações de textos, fotos ou preços um processo rápido e de baixo custo." }
+            ],
+            "testimonial": {
+                "quote": "A primeira impressão perfeita para um produto inovador.",
+                "author": "Nexus",
+                "role": "Desenvolvedor, Innovate SaaS"
+            },
+            "nextProject": {
+                "title": "PetShop PetCare",
+                "link": "1",
                 "imageUrl": "https://placehold.co/800x600/1e293b/64ffda?text=Próximo+Projeto"
             }
         }
